@@ -1,0 +1,216 @@
+
+.search {
+    inpit {
+        width: 96%;
+        padding: 10px 0;
+        position: relative;
+        border: 0.1px solid gray;
+    }
+}
+
+.search {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search {
+
+    img,
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.search {
+    img {
+        right: 14px;
+
+    }
+}
+
+.search {
+    button {
+        left: 10px;
+        padding: 6px 10px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.search {
+    input::placeholder {
+        padding-right: 30px;
+
+    }
+}
+
+.aks {
+    img {
+        width: 55px;
+
+    }
+}
+
+.aks {
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    font-size: 8px;
+    column-gap: 12px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.filter {
+    display: flex;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 4px;
+}
+
+.filter {
+    a {
+        padding: 4px;
+        border: 1px solid;
+        margin-left: 10px;
+        border-radius: 6px;
+    }
+}
+
+.food {
+    >h4 {
+        border: 1px solid lightgray;
+        padding: 6px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: white;
+    }
+}
+
+.food {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.food {
+    .sini {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 18px 12px;
+        background-color: white;
+        position: relative;
+    }
+}
+
+.food {
+    .sini:last-child {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.food {
+    .sini::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 1px;
+        background-color: lightgray;
+        /* bottom: 0; */
+        top: 99%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.food {
+    .sini::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 1px;
+        background-color: lightgray;
+        /* bottom: 0; */
+        top: 99%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.food {
+    .sini {
+        div:first-child {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr;
+            justify-content: space-between;
+        }
+    }
+}
+
+.food {
+    .sini {
+        div:last-child {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+}
+
+.sini {
+    div:first-child {
+        img {
+            width: 100px;
+
+        }
+    }
+}
+
+.food {
+    .sini {
+        p {
+            text-align: justify;
+
+        }
+    }
+}
+
+.food {
+    .sini {
+        div:first-child {
+            padding-bottom: 12px;
+
+        }
+    }
+}
+
+.food {
+    .sini {
+        div:last-child {
+            a {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-self: flex-end;
+                align-items: center;
+                border: 1px solid blue;
+                color: blue;
+                padding: 12px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

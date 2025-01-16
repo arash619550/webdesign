@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    div {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.footer {
+    div {
+        img {
+            width: 40px;
+            padding-bottom: 10px;
+        }
+    }
+}
