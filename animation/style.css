@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #ea3359;
+    color: white;
+    border-radius: 20px;
+    padding: 16px 20px;
+    border: none;
+    box-shadow: -7px 11px 10px #ec5ea2, 7px 11px 10px #ef8c9a;
+    margin-top: 20px;
+    position: relative;
+}
+
+button::before {
+    content: "";
+    width: 0;
+    z-index: 1;
+    height: 5px;
+    background: linear-gradient(white, #ea3359 25%, #ea3359 75%, white);
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: animation;
+}
+
+
+@keyframes animation {
+    0% {
+        height: 5px;
+        width: 0;
+        top: 0;
+        left: 0;
+
+
+    }
+
+    25% {
+        width: 100%;
+        height: 5px;
+        top: 0;
+        right: 0;
+       
+
+    }
+
+    50% {
+        height: 100%;
+        width: 5px;
+        right: 0;
+        bottom: 0;
+       
+
+    }
+
+    75% {
+        height: 5px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+
+    }
+
+    100% {
+        height: 100%;
+        width: 5px;
+        left: 0;
+        top: 0;
+
+    }
+
+}
