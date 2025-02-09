@@ -1,0 +1,562 @@
+.windows {
+    text-align: center;
+    border-radius: 32.32px;
+    position: relative;
+    margin-bottom: 144px;
+    border: 1.01px solid;
+    border-image-source: linear-gradient(95.86deg, #FFFFFF 16.86%, #6864FF 52.32%, #FFFFFF 101.43%);
+
+    .windows-text,
+    .felesh {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        max-width: 1019.73px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .windows-text {
+        top: 42.49px;
+    }
+
+    .felesh {
+        top: 232.8px;
+    }
+
+    .windows-text-right,
+    .windows-text-left {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        span {
+            color: $color-3;
+            font-weight: $font-weight-regular;
+            font-size: 16.95px;
+        }
+    }
+
+    &-bottom {
+        max-width: 786.05px;
+        background: linear-gradient(265.65deg, rgba(118, 117, 218, 0.2) -0.02%, rgba(0, 0, 0, 0) 53.53%);
+        border-radius: 30.39px;
+        border: 1.01px solid;
+        border-image-source: linear-gradient(95.86deg, #FFFFFF 16.86%, #6864FF 52.32%, #FFFFFF 101.43%);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        padding: 26.56px 96.79px 26.96px 98.26px;
+        backdrop-filter: blur(126.58px);
+
+        .h2-2 {
+            color: $color-3;
+            margin-bottom: 8.46px;
+            font-weight: $font-weight-bold;
+            font-size: 31.83px;
+        }
+
+        .h3-2 {
+            color: $color-3;
+            font-weight: $font-weight-regular;
+            font-size: 18.68px;
+        }
+    }
+}
+
+.maghale {
+    display: flex;
+    gap: 354.07px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 38.06px;
+
+    .h4 {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        font-weight: $font-weight-bold;
+        font-size: 26.56px;
+        color: $color-1;
+    }
+}
+
+.maghale {
+    a {
+        border-radius: 7.97px;
+        font-weight: $font-weight-bold;
+        font-size: 13.28px;
+        color: $color-1;
+        padding: 10.62px 9.86px 10.98px 14.16px;
+        background: #444BFF1A;
+    }
+
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 14.16px;
+        margin-bottom: 19.47px;
+
+        .maghale-1 {
+            div {
+                margin-bottom: 23.02px;
+
+                a {
+                    border-radius: 7.08px;
+                    font-weight: $font-weight-light;
+                    font-size: 15.93px;
+                }
+            }
+
+            img {
+                margin-bottom: 17.7px;
+            }
+
+            &:nth-child(1) div {
+                a:first-child {
+                    margin-left: 4.43px;
+                    background-color: $color-18;
+                    color: $color-5;
+                    padding: 5.31px 14.11px 5.21px 14.16px;
+                }
+
+                a:last-child {
+                    background-color: $color-19;
+                    color: $color-1;
+                    padding: 5.31px 9.93px 5.21px 9.74px;
+                }
+            }
+
+            &:nth-child(2) div {
+                a:first-child {
+                    background-color: $color-19;
+                    margin-left: 6.2px;
+                    color: $color-1;
+                    padding: 5.31px 7.03px 5.21px 7.08px;
+                }
+
+                a:last-child {
+                    background-color: $color-20;
+                    color: $color-6;
+                    padding: 5.31px 9.87px 5.21px 8.85px;
+                }
+            }
+
+            &:nth-child(3) div {
+                a:first-child {
+                    background-color: $color-18;
+                    color: $color-5;
+                    margin-left: 6.2px;
+                    padding: 5.31px 17.37px 5.21px 17.7px;
+                }
+
+                a:last-child {
+                    background-color: $color-19;
+                    color: $color-1;
+                    padding: 5.31px 11.83px 5.21px 12.39px;
+                }
+            }
+
+            .h4-2 {
+                font-weight: $font-weight-regular;
+                font-size: 17.7px;
+                line-height: 26.56px;
+                color: $color-2;
+                margin-bottom: 16.81px;
+            }
+
+            .p {
+                font-weight: $font-weight-light;
+                font-size: 15.93px;
+                line-height: 23.9px;
+                text-align: justify;
+                color: $color-4;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.maghale-grid {
+    .maghale-1 {
+        .p {
+            a {
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+        }
+
+        .profile {
+            display: flex;
+            gap: 12.9px;
+            align-items: center;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 3.13px;
+
+                span {
+                    &:first-child {
+                        font-weight: $font-weight-regular;
+                        font-size: 12.46px;
+                        color: $color-7;
+                    }
+
+                    &:last-child {
+                        font-weight: $font-weight-light;
+                        font-size: 12.46px;
+                        color: $color-4;
+                    }
+                }
+            }
+
+            img {
+                border-radius: 59.31px;
+                max-width: 42.49px;
+                max-height: 44.26px;
+            }
+        }
+    }
+}
+
+.square,
+.square2 {
+    position: absolute;
+    z-index: -1;
+}
+
+.square {
+    top: 980px;
+    right: 120px;
+}
+
+.square2 {
+    top: 1535px;
+    left: 120px;
+}
+
+.faza {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 53.11px;
+    margin-bottom: 62.85px;
+
+    &-link {
+        margin-bottom: 8.85px;
+
+        a {
+            border-radius: 7.08px;
+            font-size: 15.93px;
+            font-weight: $font-weight-light;
+
+            &:first-child {
+                background-color: $color-19;
+                color: $color-1;
+                padding: 5.31px 13.32px 5.21px 14.16px;
+                margin-left: 10.62px;
+            }
+
+            &:last-child {
+                background-color: $color-18;
+                color: $color-5;
+                padding: 5.31px 14.91px 5.21px 14.16px;
+            }
+        }
+    }
+}
+
+.faza-article {
+    h4 {
+        font-weight: $font-weight-bold;
+        font-size: 27.44px;
+        line-height: 53.1px;
+        color: $color-2;
+        margin-bottom: 8.85px;
+    }
+
+    p {
+        font-weight: $font-weight-light;
+        font-size: 22.13px;
+        line-height: 42.82px;
+        text-align: justify;
+        color: $color-4;
+
+        a {
+            color: $color-1;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                border: 0.89px solid #444BFF;
+                bottom: 0;
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+}
+
+.faza-pic {
+    position: relative;
+
+    img:nth-child(2),
+    img:nth-child(3) {
+        position: absolute;
+    }
+
+    img:nth-child(2) {
+        left: 300px;
+        top: -120px;
+    }
+
+    img:nth-child(3) {
+        left: 0;
+        top: 20px;
+    }
+}
+
+section:nth-child(4) {
+    .maghale-aks>.square2 {
+        top: 2300px;
+        transform: rotateY(180deg);
+        right: 120px;
+    }
+}
+
+.h4-3 {
+    text-align: center;
+    font-weight: $font-weight-bold;
+    font-size: 26.56px;
+    color: $color-1;
+    margin-bottom: 51.17px;
+}
+
+.video {
+    position: relative;
+    margin-bottom: 51.12px;
+}
+
+.volume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    transform: translateY(-50%);
+
+    img {
+        position: absolute;
+
+        &:last-child {
+            bottom: -100px;
+        }
+    }
+}
+
+.volume {
+
+    img:nth-child(2),
+    img:nth-child(3) {
+        bottom: -70px;
+    }
+}
+
+.video {
+    .h4-4 {
+        position: absolute;
+        bottom: 160px;
+        right: 20.36px;
+        color: $color-3;
+        font-weight: $font-weight-bold;
+        font-size: 27.44px;
+    }
+
+    img:nth-child(5) {
+        padding: 8.33px 8.33px 8.33px 8.97px;
+        border-radius: 50%;
+        background-color: $color-3;
+    }
+
+    >img:not(img:first-child) {
+        position: relative;
+        right: 440px;
+        bottom: 60px;
+        opacity: 90%;
+    }
+}
+
+.bar {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 115px;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+
+    span {
+        color: $color-3;
+        font-weight: $font-weight-bold;
+        font-size: 15.38px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+.playback-tape {
+    position: relative;
+
+    img:nth-child(2),
+    img:nth-child(3) {
+        position: absolute;
+    }
+
+    img:nth-child(2) {
+        left: 0;
+        top: 50%;
+    }
+
+    img:nth-child(3) {
+        top: 0;
+        transform: translateY(50%);
+        left: 365.24px;
+    }
+}
+
+section:nth-child(5) {
+    >img {
+        top: 2870px;
+        z-index: -1;
+        left: 120px;
+    }
+}
+
+.Laptop-buying-guide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17.45px;
+    align-items: baseline;
+    margin-bottom: 43.37px;
+}
+
+.Laptop-buying-guide {
+    img {
+        margin-bottom: 10px;
+    }
+
+    .h4-5 {
+        font-weight: $font-weight-bold;
+        font-size: 18.23px;
+        line-height: 35.27px;
+        color: $color-2;
+    }
+
+    div:last-child {
+        .h4-5 {
+            line-height: 39.33px;
+        }
+    }
+}
+
+.laptop-link {
+    text-align: center;
+    max-width: 1094.97px;
+    margin: 0 auto;
+    border-bottom: 0.89px solid #DADADA;
+
+    a {
+        font-weight: $font-weight-bold;
+        font-size: 26.56PX;
+        color: $color-1;
+        margin-bottom: 85.7px;
+    }
+}
+
+section:nth-child(7) {
+    margin-top: 76.13px;
+}
+
+.most-visited-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21.32px;
+    margin-bottom: 29.21px;
+
+    .h4-6 {
+        font-weight: $font-weight-bold;
+        font-size: 26.56px;
+        color: $color-2;
+    }
+}
+
+.category-link {
+    margin-bottom: 100.47px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 18px;
+        row-gap: 24px;
+        max-width: 587.87px;
+
+        li {
+            a {
+                padding: 9.74px 23.9px;
+                border-radius: 8.85px;
+            }
+
+            &:nth-child(1) a {
+                background-color: $color-21;
+                color: $color-8;
+            }
+
+            &:nth-child(2) a {
+                background-color: $color-22;
+                color: $color-9;
+            }
+
+            &:nth-child(3) a {
+                background-color: $color-23;
+                color: $color-10;
+            }
+        }
+    }
+}
+
+.category-link {
+    ul {
+        li {
+            &:nth-child(4) a {
+                background-color: $color-24;
+                color: $color-11;
+            }
+
+            &:nth-child(5) a {
+                background-color: $color-25;
+                color: $color-12;
+            }
+
+            &:nth-child(6) a {
+                background-color: $color-26;
+                color: $color-13;
+            }
+
+            &:nth-child(7) a {
+                background-color: $color-27;
+                color: $color-14;
+            }
+        }
+    }
+}

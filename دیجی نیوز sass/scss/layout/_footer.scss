@@ -1,0 +1,156 @@
+.social {
+    img {
+        position: static;
+    }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 78px;
+    padding-top: 42.49px;
+    padding-bottom: 37.45px;
+
+    &-background {
+        background-color: $color-30;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    &-column1 {
+        span {
+            font-weight: $font-weight-regular;
+            font-size: 17.7px;
+            color: $color-1;
+            margin-bottom: 19.92px;
+        }
+
+        .h5-2 {
+            font-weight: $font-weight-regular;
+            font-size: 15.93px;
+            color: $color-15;
+            margin-bottom: 16.82px;
+        }
+    }
+
+    &-column2,
+    &-column3 {
+        span {
+            font-weight: $font-weight-regular;
+            font-size: 17.7px;
+            color: $color-7;
+            margin-bottom: 19.92px;
+        }
+
+        ul {
+            li {
+                a {
+                    margin-bottom: 16.82px;
+                    font-weight: $font-weight-regular;
+                    font-size: 15.93px;
+                    color: $color-15;
+                }
+            }
+        }
+    }
+}
+
+.footer-column4 {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        font-weight: $font-weight-regular;
+        font-size: 15.93px;
+        color: $color-7;
+        margin-bottom: 19.26px;
+    }
+}
+
+.membership-flex {
+    display: flex;
+    align-items: center;
+    gap: 7.08px;
+    margin-bottom: 74.36px;
+
+    .membership-input {
+        position: relative;
+
+        img {
+            position: absolute;
+            right: 11.51px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        input {
+            background-color: $color-3;
+            border-radius: 7.08px;
+            border: none;
+            padding: 11.34px 11.51px 12.04px 107.11px;
+        }
+    }
+}
+
+.membership-input {
+    input {
+        &::placeholder {
+            padding-right: 42.1px;
+            font-weight: $font-weight-light;
+            font-size: 12.84px;
+            color: $color-16;
+        }
+    }
+}
+
+.membership-flex {
+    a {
+        border-radius: 7.08px;
+        background-color: $color-1;
+        padding: 10.62px 10.65px 10.75px 13.28px;
+        color: $color-3;
+        font-weight: $font-weight-regular;
+        font-size: 14.21px;
+    }
+}
+
+.social {
+    text-align: left;
+
+    img {
+        margin-right: 26.56px;
+    }
+}
+
+.footer {
+    position: relative;
+
+    >img {
+        position: absolute;
+    }
+
+    .pic1 {
+        left: -120px;
+    }
+
+    .pic2 {
+        top: 70px;
+        right: -20px;
+    }
+}
+
+.footer-bottom {
+    padding: 14.05px 399.68px 15.83px 400.99px;
+    background-color: $color-1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    .h6 {
+        text-align: center;
+        font-weight: $font-weight-regular;
+        font-size: 15.93px;
+        color: $color-3;
+    }
+}

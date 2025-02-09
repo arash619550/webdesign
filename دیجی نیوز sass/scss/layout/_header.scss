@@ -1,0 +1,127 @@
+.header,
+.logo,
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-image: url(../assets/images/Group1478.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.44px solid #11111180;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.gradient {
+    background: radial-gradient(21.54% 25.71% at 49.98% 30.38%, rgba(250, 251, 252, 0.8) 0%, rgba(250, 251, 252, 0) 100%), linear-gradient(0deg, #FAFBFC 26.99%, rgba(250, 251, 252, 0) 58.87%);
+    opacity: 10%;
+    position: absolute;
+    top: 133.66px;
+    left: 2.16px;
+    width: 100%;
+    height: 588.65px;
+}
+
+.header {
+    gap: 773.76px;
+    padding: 30px 0 68.16px 0;
+
+    .logo {
+        gap: 9.74px;
+
+        .h1-1 {
+            font-weight: $font-weight-regular;
+            font-size: 21.24px;
+            color: $color-1;
+        }
+    }
+
+    .login {
+        gap: 21.24px;
+        font-size: 14.16px;
+        font-weight: $font-weight-light;
+    }
+}
+
+.login {
+    button {
+        &:first-child {
+            background-color: transparent;
+            border: none;
+            color: $color-2;
+        }
+
+        &:last-child {
+            border-radius: 3.54px;
+            background-color: $color-1;
+            color: $color-3;
+            padding: 7.08px 21.24px;
+            border: none;
+        }
+    }
+}
+
+.img1 {
+    position: absolute;
+    left: 976.84px;
+}
+
+.header2 {
+    position: relative;
+    text-align: center;
+
+    .h2 {
+        padding: 28.33px 0 23.24px 0;
+        font-weight: $font-weight-bold;
+        font-size: 33.64px;
+        color: $color-1;
+    }
+
+    .h3 {
+        font-weight: $font-weight-light;
+        font-size: 24.63px;
+        color: $color-2;
+        padding-bottom: 29.27px;
+    }
+}
+
+nav {
+    max-width: 623px;
+    margin: 0 auto;
+    padding: 7.2px 7.08px;
+    border-radius: 5.31px;
+    border: 0.89px solid #11111114;
+    box-shadow: 0px 3.54px 8.85px 0px #11111105;
+    margin-bottom: 86.75px;
+    background-color: $color-3;
+
+    .ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28.33px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                font-weight: $font-weight-light;
+                font-size: 14.16px;
+                color: $color-2;
+            }
+
+            &:last-child a {
+                border-radius: 3.54px;
+                background-color: $color-1;
+                box-shadow: 0px 0.89px 2.66px 0px #0000000D;
+                font-weight: $font-weight-regular;
+                font-size: 14.16px;
+                color: $color-3;
+                padding: 7.08px 14.16px;
+            }
+        }
+    }
+}
