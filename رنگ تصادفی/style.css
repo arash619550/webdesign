@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    border: 1px solid white;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 8px;
+    background-color: rgb(red, green, blue);
+}
